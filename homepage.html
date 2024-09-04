@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="hpcss.css" />
+  </head>
+
+  <body>
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/typing.png" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Typing Speed</h2>
+              <p class="description">
+                A typing speed checker is a tool that measures how fast and
+                accurately you can type, usually in words per minute (WPM), by
+                having you type a set of words within a time limit.
+              </p>
+
+              <a href="typing.html" style="color: #fff;text-decoration:none" target="_blank"><button class="button">Play Game</button></a>
+            </div>
+          </div>
+          <br>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/hm.png" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Hangman game</h2>
+              <p class="description">
+                Hangman is a word-guessing game where players guess letters to
+                uncover a hidden word. Incorrect guesses add parts to a stick
+                figure, and the game ends if the word is guessed or the figure
+                is fully drawn.
+              </p>
+
+              <button class="button"><a href="hangman.html" style="color: #fff;text-decoration:none" target="_blank">Play Game</a></button>
+            </div>
+          </div>
+          <br>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/memorycard.webp" alt="" class="card-img" />
+              </div>
+            </div>
+
+            <div class="card-content">
+              <h2 class="name">Memory Cards</h2>
+              <p class="description">
+                The memory card game is a matching game where players flip over
+                pairs of cards, trying to find matches. The game helps improve
+                memory and focus, and the player with the most matched pairs
+                wins.
+              </p>
+
+              <button class="button"><a href="memorycards.html" style="color: #fff;text-decoration:none" target="_blank">Play Game</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </body>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="hpjs.js"></script>
+</html>
